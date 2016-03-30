@@ -1,14 +1,16 @@
 $('#red').click(function() {
-    $('.f_green').removeClass('maxHeight');
-    $('.f_red').removeClass('maxHeight');
 
-    $('.f_red').addClass('minHeight');
+
+    $('.f_red').addClass('minHeight').removeClass('maxHeight');
+
+    $('.f_green').removeClass('maxHeight');
 });
 
 
 $('#green').click(function() {
     $('.f_red').removeClass('maxHeight');
-    $('.f_green').addClass('minHeight');
+    $('.f_green').removeClass('maxHeight').addClass('minHeight');
+
 
 });
 
