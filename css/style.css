@@ -21,7 +21,7 @@
 .links:hover {
   background: green;
   transition: 500ms ease;
-  opacity: 0, 2;
+  opacity: 0,2;
 }
 
 .main__filter{
@@ -52,8 +52,8 @@
   height:0;
   padding:0;
   transition:3000ms ease;
-color:yellow;  
-  
+color:yellow;
+
 }
 .maxHeight{
   height:80px;
